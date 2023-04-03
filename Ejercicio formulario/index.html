@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Curso Web</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre." size="30" maxlength="20" autofocus required><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Escriba su mail." required><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="text" id="contraseña" name="contraseña" placeholder="Escriba su contraseña." maxlength="8"><br>
+
+        <label for="url">Url:</label>
+        <input type="url" id="url" name="url" placeholder="Escriba la URL." ><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" ><br>
+
+        <label for="tiempo">Tiempo:</label>
+        <input type="datetime" id="datetime" name="datetime" ><br>
+
+        <label for="fecha-y-hora">Fecha y hora:</label>
+        <input type="datetime" id="datetime" name="datetime" ><br>
+
+        <label for="mes">Mes:</label>
+        <input type="month" id="month" name="month" ><br>
+
+        <label for="semana">Semana:</label>
+        <input type="week" id="week" name="week" ><br>
+
+        <label for="numero">Número:</label>
+        <input type="number" id="numbre" name="number" max="10" min="-10" ><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="tel" name="tel" ><br>
+
+        <label for="buscar">Buscar:</label>
+        <input type="search" id="search" name="search" ><br>
+
+        <label for="color-favorito">Color color-favorito:</label>
+        <input type="color" id="color" name="color" required><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="range" name="range" max="65" min="18"><br>
+
+        <label for="bloque-favorito">Bloque favorito:</label>
+        <input type="radio" id="radio" name="radio" >Bloque 3
+        <input type="radio" id="radio" name="radio" >Bloque 4<br>
+
+        <label for="bloque-favorito">Bloque favorito:</label><br>
+        <input type="checkbox" id="checkbox" name="checkbox" >B3 T5<br>
+        <input type="checkbox" id="checkbox" name="checkbox" >B3 T6<br>
+        <input type="checkbox" id="checkbox" name="checkbox" >B3 T7<br>
+        <input type="checkbox" id="checkbox" name="checkbox" >B3 T8<br>
+        <input type="checkbox" id="checkbox" name="checkbox" >B3 T4<br>
+
+        <label for="seleccione-un-tema"></label>
+        <select id="seleccione-un-tema" name="seleccione-un-tema">
+        <option value="seleccione-un-tema">Seleccione un tema:</option>
+        <optgroup label="Bloque 1"></optgroup->
+            <option>B1T1</option>
+            <option>B1T2</option>
+            <option>B1T3</option>
+        <optgroup label="Bloque 2"></optgroup->
+            <option>B2T2</option>
+            <option>B2T4</option>
+            <option>B2T5</option>
+        <optgroup label="Bloque 3"></optgroup->
+            <option>B3T1</option>
+            <option>B3T2</option>
+            <option>B3T3</option>
+        </select><br>
+
+        <label for="observaciones">Observaciones:</label><br>
+        <textarea name="observaciones" id="observaciones" cols="20" rows="30"></textarea><br>
+
+        <input type="reset" value="Limpiar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
